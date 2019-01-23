@@ -2,31 +2,21 @@
 
 ## Basics
 
-### What does this mod do?
+### Introduction
 Tinkers' Construct added oreberries in 1.7.10, but they dropped this feature
-when they moved to newer versions of Minecraft. This mod brings back oreberries
-and their associated content, and makes them much more configurable than they
-used to be.
+when they moved to newer versions of Minecraft. This fork is different from
+josephcsible's 1.12.1 version which adds oreberries and lots of configuration options.
+While this fork uses the assets provided josephscilble mods, most of the java code has been completely rewritten. This fork of Oreberries continues to provide the content from josephscibles mod, but it adds aluminum, copper, and tin. It enables smelting of the oreberries in a furnace, and smelting of the metals in Tinkers's Smeltery. This fork is designed to run on Forge 2768 and provides very few configuration options.
 
 ### How do I use this mod?
 You need Minecraft Forge installed first. Once that's done, just drop
-oreberries-*version*.jar in your Minecraft instance's mods/ directory and,
-optionally, configure it to taste.
+oreberries-1.12.2.jar in your Minecraft instance's mods/ directory and,
+optionally, configure it. 
 
 ### What settings does this mod have?
-This mod has two configuration files: oreberries.json, where types of
-oreberries are defined, and oreberries.cfg, where you can control growth
-chances, bonemeal ability, and tinker villagers.
-
-### How do I add/change oreberries?
-Edit your oreberries.json file. See [the oreberries.json page on the wiki](https://github.com/josephcsible/Oreberries/wiki/oreberries.json)
-for detailed instructions.
-
-### Why does Minecraft crash on startup after I edited oreberries.json?
-You may have made a mistake while editing oreberries.json. A syntax error in
-that file will prevent Minecraft from starting. If you don't see the error, and
-the crash log doesn't help you find it, try validating the contents of
-oreberries.json with a tool like [JSONLint.com](https://jsonlint.com).
+This fork one configuration file and two configuration options:
+1. enable or disable the tinkers villager
+2. enable or disable the silk touch mining requirement.
 
 ## Development
 
